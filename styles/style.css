@@ -180,7 +180,7 @@
   line-height: 130%;
 }
 
-.link{
+.link {
   text-shadow: 2px 2px 0 var(--accent-color);
   text-decoration: none;
   position: relative;

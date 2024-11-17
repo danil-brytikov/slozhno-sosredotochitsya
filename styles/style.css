@@ -109,7 +109,7 @@
 
 .header__theme-menu-button:focus-visible {
   outline: none;
-  border-bottom: 1px solid var(--hover-border-color);
+  border-bottom: 1px solid var(--menu-color);
 }
 
 .header__title {
@@ -176,15 +176,15 @@
   color: var(--heading-color);
   line-height: 130%;
 }
-.rules_li_title {
+.rules_item_title {
   font-weight: 400;
 }
 
-.section__rules-li {
+.section__rules-item {
   padding-bottom: 20px;
 }
 
-.section__rules-li:last-child {
+.section__rules-item:last-child {
   padding-bottom: 0px;
 }
 
@@ -273,7 +273,7 @@
     padding-bottom: 80px;
   }
 
-  .section:nth-child(odd) {
+  .section_row {
     flex-direction: row;
   }
 
